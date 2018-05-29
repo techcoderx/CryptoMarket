@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		47F7E12B2078E0F400108628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7E12A2078E0F400108628 /* AppDelegate.swift */; };
-		47F7E12D2078E0F400108628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7E12C2078E0F400108628 /* ViewController.swift */; };
 		47F7E1302078E0F400108628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F7E12E2078E0F400108628 /* Main.storyboard */; };
 		47F7E1322078E0F500108628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F7E1312078E0F500108628 /* Assets.xcassets */; };
 		47F7E1352078E0F500108628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F7E1332078E0F500108628 /* LaunchScreen.storyboard */; };
+		47F7E13D2078EA0600108628 /* SummaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7E13C2078EA0600108628 /* SummaryTableViewController.swift */; };
+		47F7E13F2078EEFB00108628 /* Top100ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7E13E2078EEFB00108628 /* Top100ListTableViewController.swift */; };
+		47F7E1412078F02900108628 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7E1402078F02900108628 /* DetailTableViewController.swift */; };
+		609473A0C82504C393732A6D /* Pods_CryptoMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8285344F244B7AAA2E6F7926 /* Pods_CryptoMarket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0153E115D7C986B4356550DB /* Pods-CryptoMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket.debug.xcconfig"; sourceTree = "<group>"; };
 		47F7E1272078E0F400108628 /* CryptoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F7E12A2078E0F400108628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47F7E12C2078E0F400108628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47F7E12F2078E0F400108628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47F7E1312078E0F500108628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47F7E1342078E0F500108628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47F7E1362078E0F500108628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F7E13C2078EA0600108628 /* SummaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTableViewController.swift; sourceTree = "<group>"; };
+		47F7E13E2078EEFB00108628 /* Top100ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top100ListTableViewController.swift; sourceTree = "<group>"; };
+		47F7E1402078F02900108628 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		73D59F099627E21AC5367D77 /* Pods-CryptoMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket.release.xcconfig"; sourceTree = "<group>"; };
+		8285344F244B7AAA2E6F7926 /* Pods_CryptoMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609473A0C82504C393732A6D /* Pods_CryptoMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1101898D7EF819F5A513DE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8285344F244B7AAA2E6F7926 /* Pods_CryptoMarket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47F7E11E2078E0F400108628 = {
 			isa = PBXGroup;
 			children = (
 				47F7E1292078E0F400108628 /* CryptoMarket */,
 				47F7E1282078E0F400108628 /* Products */,
+				967CF8E654229637D420C79C /* Pods */,
+				1101898D7EF819F5A513DE9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				47F7E12A2078E0F400108628 /* AppDelegate.swift */,
-				47F7E12C2078E0F400108628 /* ViewController.swift */,
+				47F7E13C2078EA0600108628 /* SummaryTableViewController.swift */,
+				47F7E13E2078EEFB00108628 /* Top100ListTableViewController.swift */,
+				47F7E1402078F02900108628 /* DetailTableViewController.swift */,
 				47F7E12E2078E0F400108628 /* Main.storyboard */,
 				47F7E1312078E0F500108628 /* Assets.xcassets */,
 				47F7E1332078E0F500108628 /* LaunchScreen.storyboard */,
 				47F7E1362078E0F500108628 /* Info.plist */,
 			);
 			path = CryptoMarket;
+			sourceTree = "<group>";
+		};
+		967CF8E654229637D420C79C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0153E115D7C986B4356550DB /* Pods-CryptoMarket.debug.xcconfig */,
+				73D59F099627E21AC5367D77 /* Pods-CryptoMarket.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47F7E1392078E0F500108628 /* Build configuration list for PBXNativeTarget "CryptoMarket" */;
 			buildPhases = (
+				86538B24A4B65A0C4E6EECCE /* [CP] Check Pods Manifest.lock */,
 				47F7E1232078E0F400108628 /* Sources */,
 				47F7E1242078E0F400108628 /* Frameworks */,
 				47F7E1252078E0F400108628 /* Resources */,
+				7A635A0AD96698F7007343DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +162,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A635A0AD96698F7007343DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoCurrencyKit/CryptoCurrencyKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoCurrencyKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86538B24A4B65A0C4E6EECCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47F7E1232078E0F400108628 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47F7E12D2078E0F400108628 /* ViewController.swift in Sources */,
+				47F7E1412078F02900108628 /* DetailTableViewController.swift in Sources */,
+				47F7E13F2078EEFB00108628 /* Top100ListTableViewController.swift in Sources */,
+				47F7E13D2078EA0600108628 /* SummaryTableViewController.swift in Sources */,
 				47F7E12B2078E0F400108628 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,15 +351,13 @@
 		};
 		47F7E13A2078E0F500108628 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0153E115D7C986B4356550DB /* Pods-CryptoMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6NDEQJ933;
 				INFOPLIST_FILE = CryptoMarket/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TechCoderX.CryptoMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +367,13 @@
 		};
 		47F7E13B2078E0F500108628 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D59F099627E21AC5367D77 /* Pods-CryptoMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6NDEQJ933;
 				INFOPLIST_FILE = CryptoMarket/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TechCoderX.CryptoMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
