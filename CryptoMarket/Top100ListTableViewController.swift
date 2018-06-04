@@ -49,6 +49,7 @@ class Top100ListTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedindex = indexPath.row
+        performSegue(withIdentifier: "toDetail", sender: self)
     }
     
     @objc func refreshData() {
